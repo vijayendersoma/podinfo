@@ -2,8 +2,21 @@ apiVersion: v1
 entries:
   podinfo:
   - apiVersion: v1
+    appVersion: 3.0.0-alpha
+    created: "2022-05-04T15:14:58.299979102Z"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 8ed98e4089e336ee0f4ea0e6f1aca4a157f75c60c11a04958d5860806e7efce4
+    home: https://github.com/vijayendersoma/podinfo
+    kubeVersion: '>=1.19.0-0'
+    name: podinfo
+    sources:
+    - https://github.com/vijayendersoma/podinfo
+    urls:
+    - https://vijayendersoma.github.io/podinfo/podinfo-3.0.0-alpha.tgz
+    version: 3.0.0-alpha
+  - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-05-04T15:06:52.888835199Z"
+    created: "2022-05-04T15:14:58.298742612Z"
     description: Podinfo Helm chart for Kubernetes
     digest: 54bf91d455536c6291ba41fbdd0d995b35dca81780e607310ca765ed2f731267
     home: https://github.com/vijayendersoma/podinfo
@@ -16,7 +29,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 2.0.0-alpha
-    created: "2022-05-04T15:06:52.887353194Z"
+    created: "2022-05-04T15:14:58.297390046Z"
     description: Podinfo Helm chart for Kubernetes
     digest: 82b8c227a15c55eca9bfc0f578b3db20fc1933f9d7800bc6448afe24e8c44501
     home: https://github.com/vijayendersoma/podinfo
@@ -29,7 +42,7 @@ entries:
     version: 2.0.0-alpha
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-05-04T15:06:52.885874028Z"
+    created: "2022-05-04T15:14:58.295985232Z"
     description: Podinfo Helm chart for Kubernetes
     digest: 6e525603527450d985d19294ef492f08ea092583cda07afb33bb137d8c4ee5c8
     home: https://github.com/vijayendersoma/podinfo
@@ -42,7 +55,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 1.0.0-alpha
-    created: "2022-05-04T15:06:52.884528696Z"
+    created: "2022-05-04T15:14:58.292978497Z"
     description: Podinfo Helm chart for Kubernetes
     digest: 5d1761162aff26dc373ef4d7ee45d2dfb51b3e73b1423797d4911b137a278fa5
     home: https://github.com/vijayendersoma/podinfo
@@ -53,4 +66,4 @@ entries:
     urls:
     - https://vijayendersoma.github.io/podinfo/podinfo-1.0.0-alpha.tgz
     version: 1.0.0-alpha
-generated: "2022-05-04T15:06:52.882867656Z"
+generated: "2022-05-04T15:14:58.291450061Z"
