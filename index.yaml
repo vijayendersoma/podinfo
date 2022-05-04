@@ -2,8 +2,21 @@ apiVersion: v1
 entries:
   podinfo:
   - apiVersion: v1
+    appVersion: 2.0.0-alpha
+    created: "2022-05-04T15:01:05.800828537Z"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 82b8c227a15c55eca9bfc0f578b3db20fc1933f9d7800bc6448afe24e8c44501
+    home: https://github.com/vijayendersoma/podinfo
+    kubeVersion: '>=1.19.0-0'
+    name: podinfo
+    sources:
+    - https://github.com/vijayendersoma/podinfo
+    urls:
+    - https://vijayendersoma.github.io/podinfo/podinfo-2.0.0-alpha.tgz
+    version: 2.0.0-alpha
+  - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-05-04T14:43:12.773656059Z"
+    created: "2022-05-04T15:01:05.799507121Z"
     description: Podinfo Helm chart for Kubernetes
     digest: 6e525603527450d985d19294ef492f08ea092583cda07afb33bb137d8c4ee5c8
     home: https://github.com/vijayendersoma/podinfo
@@ -16,7 +29,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 1.0.0-alpha
-    created: "2022-05-04T14:43:12.772289717Z"
+    created: "2022-05-04T15:01:05.79807742Z"
     description: Podinfo Helm chart for Kubernetes
     digest: 5d1761162aff26dc373ef4d7ee45d2dfb51b3e73b1423797d4911b137a278fa5
     home: https://github.com/vijayendersoma/podinfo
@@ -27,4 +40,4 @@ entries:
     urls:
     - https://vijayendersoma.github.io/podinfo/podinfo-1.0.0-alpha.tgz
     version: 1.0.0-alpha
-generated: "2022-05-04T14:43:12.750975034Z"
+generated: "2022-05-04T15:01:05.79642323Z"
